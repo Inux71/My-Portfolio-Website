@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'dracula-orchid': '#2d3436',
+        'city-lights': '#dfe6e9',
+      },
+      fontFamily: {
+        'sans': 'Roboto',
+      }
+    },
   },
   plugins: [],
 }
