@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div className="h-screen"></div>
+        <section className="h-screen"></section>
     );
 }
 

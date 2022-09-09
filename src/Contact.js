@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <div className="h-screen"></div>
+        <section className="h-screen"></section>
     );
 }
 

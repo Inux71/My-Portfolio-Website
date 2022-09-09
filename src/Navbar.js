@@ -1,6 +1,7 @@
 function Navbar() {
     return (
-        <div className="
+        <nav className="
+            bg-dracula-orchid
             top-bar 
             fixed 
             w-full 
@@ -35,7 +36,7 @@ function Navbar() {
                 </li>
             ))}
             </ul>
-        </div>
+        </nav>
     );
 }
 

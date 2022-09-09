@@ -1,6 +1,6 @@
 function Skills() {
     return (
-        <div className="h-screen"></div>
+        <section className="h-screen"></section>
     );
 }
 
