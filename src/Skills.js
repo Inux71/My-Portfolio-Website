@@ -1,6 +1,12 @@
 function Skills() {
     return (
-        <section className="h-screen"></section>
+        <section className="
+            h-screen
+            flex
+            justify-center
+            items-center
+            text-city-lights">
+        </section>
     );
 }
 

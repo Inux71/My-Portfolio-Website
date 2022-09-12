@@ -46,7 +46,7 @@ function About() {
                 </p>
                 <p className="text-justify">
                     I'm also interested in <BoldText>sport </BoldText>
-                    and<BoldText> music.</BoldText>
+                    and<BoldText> music. </BoldText>
                     I love watching <BoldText>football</BoldText> and playing
                     <ColourBoldText> guitar/bass</ColourBoldText> in free time.
                 </p>
