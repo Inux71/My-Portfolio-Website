@@ -15,11 +15,11 @@ function App() {
         w-4/5
         flex
         flex-col">
-        <Home></Home>
-        <About></About>
-        <Skills></Skills>
-        <Projects></Projects>
-        <Contact></Contact>
+        <Home/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
       </div>
     </div>
   );

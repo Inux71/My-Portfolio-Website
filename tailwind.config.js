@@ -29,6 +29,9 @@ module.exports = {
           fontSize: theme('fontSize.2xl'),
           fontWeight: theme('fontWeight.bold'),
         },
+        'p': {
+          fontSize: theme('fontSize.2xl'),
+        },
       })
     })
   ],
