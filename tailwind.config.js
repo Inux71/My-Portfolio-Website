@@ -12,6 +12,7 @@ module.exports = {
         'dracula-orchid': '#2d3436',
         'city-lights': '#dfe6e9',
         'sour-lemon': '#ffeaa7',
+        'soothing-breeze': '#b2bec3',
       },
       fontFamily: {
         'sans': 'Roboto',
@@ -23,6 +24,10 @@ module.exports = {
       addBase({
         'h1': {
           fontSize: theme('fontSize.7xl'),
+          fontWeight: theme('fontWeight.bold'),
+        },
+        'h4': {
+          fontSize: theme('fontSize.4xl'),
           fontWeight: theme('fontWeight.bold'),
         },
         'h5': {

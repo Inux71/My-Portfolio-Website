@@ -1,10 +1,5 @@
-function BoldText({children}) {
-    return <span className="font-bold">{children}</span>;
-}
-
-function ColourBoldText({children}) {
-    return <span className="font-bold text-sour-lemon">{children}</span>;
-}
+import BoldText from "./BoldText";
+import ColourBoldText from "./ColourBoldText";
 
 function About() {
     const dateOfBirth = new Date(2001, 12, 11);
