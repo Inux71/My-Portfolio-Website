@@ -17,21 +17,11 @@ function Navbar() {
                 flex 
                 justify-around
                 py-5">
-                <li className={liStyle}>
-                    <Icon path={mdiHome} size={1}></Icon><span>Home</span>
-                </li>
-                <li className={liStyle}>
-                    <Icon path={mdiAccount} size={1}></Icon><span>About</span>
-                </li>
-                <li className={liStyle}>
-                    <Icon path={mdiCog} size={1}></Icon><span>Skills</span>
-                </li>
-                <li className={liStyle}>
-                    <Icon path={mdiFolder} size={1}></Icon><span>Projects</span>
-                </li>
-                <li className={liStyle}>
-                    <Icon path={mdiPhone} size={1}></Icon><span>Contact</span>
-                </li>
+                <li className={liStyle}>Home</li>
+                <li className={liStyle}>About</li>
+                <li className={liStyle}>Skills</li>
+                <li className={liStyle}>Projects</li>
+                <li className={liStyle}>Contact</li>
             </ul>
         </nav>
     );
