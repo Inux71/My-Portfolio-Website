@@ -1,6 +1,6 @@
 function Home() {
     return (
-        <section className="
+        <section id="home" className="
             h-screen
             flex
             justify-center

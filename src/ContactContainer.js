@@ -15,7 +15,7 @@ function ContactContainer(props) {
                 cursor-pointer
                 transition 
                 duration-500
-                hover:text-sour-lemon">
+                hover:text-soothing-breeze">
                 <Icon path={props.icon}/>
             </div>
         </a>

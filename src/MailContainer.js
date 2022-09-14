@@ -1,8 +1,11 @@
 import Icon from '@mdi/react';
 
-function MailContainer({mail, subject, icon}) {
+function MailContainer({icon}) {
+    const mail = "grabiec.kacper01@gmail.com";
+    const subject = "Contact request";
+
     return (
-        <a href={`mailto:${mail}?subject=${subject}&body=${""}`}>
+        <a href={`mailto:${mail}?subject=${subject}&body=${"..."}`}>
             <div className="
                 bg-dracula-orchid
                 text-city-lights 
@@ -15,7 +18,7 @@ function MailContainer({mail, subject, icon}) {
                 cursor-pointer
                 transition 
                 duration-500
-                hover:text-sour-lemon">
+                hover:text-soothing-breeze">
                 <Icon path={icon}/>
             </div>
         </a>

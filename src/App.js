@@ -7,7 +7,6 @@ import Skills from "./Skills";
 import Icon from '@mdi/react'
 import {mdiArrowDownThinCircleOutline} from '@mdi/js'
 
-
 function App() {
   return (
     <div className="text-city-lights">
@@ -35,7 +34,10 @@ function App() {
         text-sour-lemon">
         <Icon path={mdiArrowDownThinCircleOutline} 
           size={2}
-          className="animate-bounce"/>
+          className="
+            animate-bounce 
+            cursor-pointer 
+            hover:animate-none"/>
       </div>
     </div>
   );

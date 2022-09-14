@@ -2,7 +2,7 @@ import ProjectContainer from "./ProjectContainer";
 
 function Projects() {
     return (
-        <section className="
+        <section id="projects" className="
             min-h-screen
             flex
             flex-col
@@ -13,6 +13,7 @@ function Projects() {
                 Projects
             </h1>
             <div className="
+                mt-5
                 flex 
                 flex-wrap
                 justify-center

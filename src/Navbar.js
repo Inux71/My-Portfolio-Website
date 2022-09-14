@@ -1,5 +1,4 @@
-import Icon from "@mdi/react";
-import {mdiHome, mdiAccount, mdiCog, mdiFolder, mdiPhone} from "@mdi/js"
+import { Link } from "react-scroll";
 
 function Navbar() {
     const liStyle = "gap-2 flex px-10 py-1 font-bold rounded underline decoration-2 underline-offset-8 decoration-transparent cursor-pointer transition duration-500 hover:decoration-city-lights";
@@ -17,11 +16,11 @@ function Navbar() {
                 flex 
                 justify-around
                 py-5">
-                <li className={liStyle}>Home</li>
-                <li className={liStyle}>About</li>
-                <li className={liStyle}>Skills</li>
-                <li className={liStyle}>Projects</li>
-                <li className={liStyle}>Contact</li>
+                <li className={liStyle}><Link to="home" spy={true} smooth={true}>Home</Link></li>
+                <li className={liStyle}><Link to="about" spy={true} smooth={true}>About</Link></li>
+                <li className={liStyle}><Link to="skills" spy={true} smooth={true}>Skills</Link></li>
+                <li className={liStyle}><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
+                <li className={liStyle}><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
             </ul>
         </nav>
     );

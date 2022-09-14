@@ -7,7 +7,7 @@ function About() {
     const years = currentDate.getFullYear() - dateOfBirth.getFullYear();
 
     return (
-        <section className="
+        <section id="about" className="
             h-screen
             flex
             justify-center
@@ -16,7 +16,9 @@ function About() {
             <div className="w-1/2">
 
             </div>
-            <div className="w-1/2">
+            <div className="
+                w-1/2
+                ml-16">
                 <h1 className="
                     text-sour-lemon
                     text-center">

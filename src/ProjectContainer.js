@@ -5,6 +5,7 @@ function ProjectContainer(props) {
     return (
         <a href={props.url} target="_blank" rel="noopener noreferrer">
             <div className="
+                rounded
                 bg-city-lights 
                 text-dracula-orchid 
                 w-96 
