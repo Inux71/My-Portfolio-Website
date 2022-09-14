@@ -24,6 +24,7 @@ function Projects() {
                 <ProjectContainer url="https://github.com/TheLukaszNs/AntSim" onGithub={true} name="Ant Simulation (Co-op)" languages="C++"></ProjectContainer>
                 <ProjectContainer url="https://github.com/TheLukaszNs/MVVMShop" onGithub={true} name="MVVM Shop (Co-op)" languages="C#"></ProjectContainer>
                 <ProjectContainer url="https://github.com/TheLukaszNs/WPFQuiz" onGithub={true} name="WPF Quiz (Co-op)" languages="C#"></ProjectContainer>
+                <ProjectContainer url="https://github.com/TheLukaszNs/GDXFractals" onGithub={true} name="GDX Fractals (Co-op)" languages="Java"></ProjectContainer>
             </div>
         </section>
     );
