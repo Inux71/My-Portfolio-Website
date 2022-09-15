@@ -19,12 +19,17 @@ function Skills() {
 
     return (
         <section id="skills" className="
-            h-screen
+            min-h-screen
+            lg:h-screen
             flex
+            flex-col
+            lg:flex-row
             justify-center
             items-center
             text-city-lights">
-            <div className="w-1/2">
+            <div className="
+                w-full
+                lg:w-1/2">
                 <h1 className="
                     text-sour-lemon 
                     text-center">
@@ -45,7 +50,8 @@ function Skills() {
                 </ul>
             </div>
             <div className="
-                w-1/2
+                w-full
+                lg:w-1/2
                 flex 
                 flex-wrap
                 justify-center

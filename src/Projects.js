@@ -1,4 +1,5 @@
 import ProjectContainer from "./ProjectContainer";
+import {mdiGithub} from '@mdi/js'
 
 function Projects() {
     return (
@@ -19,13 +20,13 @@ function Projects() {
                 justify-center
                 items-center
                 gap-4">
-                <ProjectContainer url="https://github.com/Inux71/My-Portfolio-Website" onGithub={true} name="My Portfolio Website" languages="React"></ProjectContainer>
-                <ProjectContainer url="https://github.com/Inux71/MVVMTotalCommander" onGithub={true} name="MVVM Total Commander" languages="C#"></ProjectContainer>
-                <ProjectContainer url="https://github.com/Inux71/MLSoundsClassification" onGithub={true} name="ML Sound Classification (Co-op)" languages="Python"></ProjectContainer>
-                <ProjectContainer url="https://github.com/TheLukaszNs/AntSim" onGithub={true} name="Ant Simulation (Co-op)" languages="C++"></ProjectContainer>
-                <ProjectContainer url="https://github.com/TheLukaszNs/MVVMShop" onGithub={true} name="MVVM Shop (Co-op)" languages="C#"></ProjectContainer>
-                <ProjectContainer url="https://github.com/TheLukaszNs/WPFQuiz" onGithub={true} name="WPF Quiz (Co-op)" languages="C#"></ProjectContainer>
-                <ProjectContainer url="https://github.com/TheLukaszNs/GDXFractals" onGithub={true} name="GDX Fractals (Co-op)" languages="Java"></ProjectContainer>
+                <ProjectContainer url="https://github.com/Inux71/My-Portfolio-Website" icon={mdiGithub} name="My Portfolio Website" languages="React"></ProjectContainer>
+                <ProjectContainer url="https://github.com/Inux71/MVVMTotalCommander" icon={mdiGithub} name="MVVM Total Commander" languages="C#"></ProjectContainer>
+                <ProjectContainer url="https://github.com/Inux71/MLSoundsClassification" icon={mdiGithub} name="ML Sound Classification (Co-op)" languages="Python"></ProjectContainer>
+                <ProjectContainer url="https://github.com/TheLukaszNs/AntSim" icon={mdiGithub} name="Ant Simulation (Co-op)" languages="C++"></ProjectContainer>
+                <ProjectContainer url="https://github.com/TheLukaszNs/MVVMShop" icon={mdiGithub} name="MVVM Shop (Co-op)" languages="C#"></ProjectContainer>
+                <ProjectContainer url="https://github.com/TheLukaszNs/WPFQuiz" icon={mdiGithub} name="WPF Quiz (Co-op)" languages="C#"></ProjectContainer>
+                <ProjectContainer url="https://github.com/TheLukaszNs/GDXFractals" icon={mdiGithub} name="GDX Fractals (Co-op)" languages="Java"></ProjectContainer>
             </div>
         </section>
     );

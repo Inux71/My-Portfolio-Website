@@ -33,7 +33,7 @@ function Contact() {
                 justify-center
                 items-center
                 gap-4">
-                <ContactContainer url="#" icon={mdiFacebookMessenger}/>
+                <ContactContainer url="https://www.m.me/kacpergrabiec01" icon={mdiFacebookMessenger}/>
                 <ContactContainer url="https://www.linkedin.com/in/kacper-grabiec-878190202/" icon={mdiLinkedin}/>
                 <MailContainer icon={mdiEmail}/>
             </div>

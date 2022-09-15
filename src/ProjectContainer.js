@@ -1,5 +1,4 @@
-import Icon from '@mdi/react';
-import {mdiGithub} from '@mdi/js'
+import Icon from "@mdi/react";
 
 function ProjectContainer(props) {
     return (
@@ -19,7 +18,7 @@ function ProjectContainer(props) {
                 duration-500
                 hover:bg-soothing-breeze
                 hover:text-city-lights">
-                {props.onGithub ? <Icon path={mdiGithub} size={1}/> : null}
+                {<Icon path={props.icon} size={1}/>}
                 <h5>{props.name}</h5>
                 <p>{props.languages}</p>
             </div>

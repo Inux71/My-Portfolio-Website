@@ -1,5 +1,7 @@
 import BoldText from "./BoldText";
 import ColourBoldText from "./ColourBoldText";
+import Icon from "@mdi/react";
+import {mdiGuitarElectric, mdiController, mdiLaptop, mdiSoccer} from "@mdi/js"
 
 function About() {
     const dateOfBirth = new Date(2001, 12, 11);
@@ -10,15 +12,29 @@ function About() {
         <section id="about" className="
             h-screen
             flex
+            flex-col
+            lg:flex-row
             justify-center
             items-center
             text-city-lights">
-            <div className="w-1/2">
-
+            <div className="
+                w-full
+                lg:w-1/2
+                flex 
+                flex-wrap
+                justify-center
+                items-center
+                gap-4
+                text-city-lights
+                bg-dracula-orchid">
+                <Icon path={mdiLaptop} size={5}/>
+                <Icon path={mdiController} size={5}/>
+                <Icon path={mdiGuitarElectric} size={5}/>
+                <Icon path={mdiSoccer} size={5}/>
             </div>
             <div className="
-                w-1/2
-                ml-16">
+                w-full
+                lg:w-1/2">
                 <h1 className="
                     text-sour-lemon
                     text-center">
@@ -42,9 +58,10 @@ function About() {
                     <ColourBoldText> TensorFlow</ColourBoldText>)
                 </p>
                 <p className="text-justify">
-                    I'm also interested in <BoldText>sport </BoldText>
-                    and<BoldText> music. </BoldText>
-                    I love watching <BoldText>football</BoldText> and playing
+                    I'm also interested in <BoldText>sport</BoldText>,
+                    <BoldText>video games </BoldText>and<BoldText> music. </BoldText>
+                    I love watching <BoldText>football</BoldText>, playing 
+                    <ColourBoldText> games</ColourBoldText> and playing
                     <ColourBoldText> guitar/bass</ColourBoldText> in free time.
                 </p>
             </div>

@@ -4,8 +4,6 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Icon from '@mdi/react'
-import {mdiArrowDownThinCircleOutline} from '@mdi/js'
 
 function App() {
   return (
@@ -22,22 +20,6 @@ function App() {
         <Skills/>
         <Projects/>
         <Contact/>
-      </div>
-
-      <div className="
-        flex
-        flex-col
-        items-center
-        w-full
-        fixed 
-        bottom-5 
-        text-sour-lemon">
-        <Icon path={mdiArrowDownThinCircleOutline} 
-          size={2}
-          className="
-            animate-bounce 
-            cursor-pointer 
-            hover:animate-none"/>
       </div>
     </div>
   );
