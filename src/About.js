@@ -1,7 +1,7 @@
 import BoldText from "./BoldText";
 import ColourBoldText from "./ColourBoldText";
-import Icon from "@mdi/react";
 import {mdiGuitarElectric, mdiController, mdiLaptop, mdiSoccer} from "@mdi/js"
+import AboutIconContainer from "./AboutIconContainer";
 
 function About() {
     const dateOfBirth = new Date(2001, 12, 11);
@@ -27,10 +27,18 @@ function About() {
                 gap-4
                 text-city-lights
                 bg-dracula-orchid">
-                <Icon path={mdiLaptop} size={5}/>
-                <Icon path={mdiController} size={5}/>
-                <Icon path={mdiGuitarElectric} size={5}/>
-                <Icon path={mdiSoccer} size={5}/>
+                <div className="
+                    w-full
+                    flex 
+                    flex-wrap
+                    justify-center
+                    items-center
+                    gap-4">
+                    <AboutIconContainer icon={mdiLaptop}/>
+                    <AboutIconContainer icon={mdiController}/>
+                    <AboutIconContainer icon={mdiGuitarElectric}/>
+                    <AboutIconContainer icon={mdiSoccer}/>
+                </div>
             </div>
             <div className="
                 w-full
