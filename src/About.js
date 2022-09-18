@@ -10,7 +10,8 @@ function About() {
 
     return (
         <section id="about" className="
-            h-screen
+            min-h-screen
+            lg:h-screen
             flex
             flex-col
             lg:flex-row
