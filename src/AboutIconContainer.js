@@ -1,4 +1,3 @@
-import { mdiFoodForkDrink } from "@mdi/js";
 import Icon from "@mdi/react";
 
 function AboutIconContainer({icon}) {
