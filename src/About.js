@@ -1,13 +1,18 @@
 import BoldText from "./BoldText";
 import ColourBoldText from "./ColourBoldText";
-import {mdiGuitarElectric, mdiController, mdiLaptop, mdiSoccer} from "@mdi/js"
+import {
+    mdiGuitarElectric, 
+    mdiController, 
+    mdiLaptop, 
+    mdiSoccer
+} from "@mdi/js"
 import AboutIconContainer from "./AboutIconContainer";
 
-function About() {
-    const dateOfBirth = new Date(2001, 12, 11);
-    const currentDate = new Date();
-    const years = currentDate.getFullYear() - dateOfBirth.getFullYear();
+const dateOfBirth = new Date(2001, 12, 11);
+const currentDate = new Date();
+const years = currentDate.getFullYear() - dateOfBirth.getFullYear();
 
+function About() {
     return (
         <section id="about" className="
             min-h-screen
@@ -57,18 +62,18 @@ function About() {
                     I like programming different things from
                     <BoldText> mobile/web</BoldText> apps (
                     <ColourBoldText>React</ColourBoldText>,
-                    <ColourBoldText> Flutter</ColourBoldText>)
-                    <BoldText> games/simulations</BoldText>,
+                    <ColourBoldText> Flutter</ColourBoldText>),
+                    <BoldText> games/simulations</BoldText>
                      (<ColourBoldText>C++</ColourBoldText>,
                     <ColourBoldText> C#</ColourBoldText>,
                     <ColourBoldText> Unity</ColourBoldText>) 
                     to<BoldText> machine learning </BoldText>
                     (<ColourBoldText>Python</ColourBoldText>,
-                    <ColourBoldText> TensorFlow</ColourBoldText>)
+                    <ColourBoldText> TensorFlow</ColourBoldText>).
                 </p>
                 <p className="text-justify">
                     I'm also interested in <BoldText>sport</BoldText>,
-                    <BoldText>video games </BoldText>and<BoldText> music. </BoldText>
+                    <BoldText> video games </BoldText>and<BoldText> music. </BoldText>
                     I love watching <BoldText>football</BoldText>, playing 
                     <ColourBoldText> games</ColourBoldText> and playing
                     <ColourBoldText> guitar/bass</ColourBoldText> in free time.

@@ -8,7 +8,7 @@ import Skills from "./Skills";
 function App() {
   return (
     <div className="text-city-lights">
-      <Navbar></Navbar>
+      <Navbar/>
 
       <div className="
         mx-auto

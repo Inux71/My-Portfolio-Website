@@ -21,6 +21,7 @@ function Projects() {
                 items-center
                 gap-4">
                 <ProjectContainer url="https://github.com/Inux71/My-Portfolio-Website" icon={mdiGithub} name="My Portfolio Website" languages="React"></ProjectContainer>
+                <ProjectContainer url="https://github.com/Inux71/RPN-Calculator" icon={mdiGithub} name="RPN Calculator" languages="HTML CSS JavaScript"></ProjectContainer>
                 <ProjectContainer url="https://github.com/Inux71/MVVMTotalCommander" icon={mdiGithub} name="MVVM Total Commander" languages="C#"></ProjectContainer>
                 <ProjectContainer url="https://github.com/Inux71/MLSoundsClassification" icon={mdiGithub} name="ML Sound Classification (Co-op)" languages="Python"></ProjectContainer>
                 <ProjectContainer url="https://github.com/TheLukaszNs/AntSim" icon={mdiGithub} name="Ant Simulation (Co-op)" languages="C++"></ProjectContainer>
