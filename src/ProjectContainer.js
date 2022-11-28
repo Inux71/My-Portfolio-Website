@@ -1,8 +1,11 @@
 import Icon from "@mdi/react";
+import { useState } from "react";
 
-function ProjectContainer(props) {
+function ProjectContainer({url, icons, name, languages, description}) {
+    const [isDesriptionShown, setIsDescriptionShown] = useState(false);
+
     return (
-        <a href={props.url} target="_blank" rel="noopener noreferrer">
+        <a onMouseEnter={() => setIsDescriptionShown(true)} onMouseLeave={() => setIsDescriptionShown(false)} href={url} target="_blank" rel="noopener noreferrer">
             <div className="
                 rounded
                 bg-city-lights 
@@ -18,9 +21,21 @@ function ProjectContainer(props) {
                 duration-500
                 hover:bg-soothing-breeze
                 hover:text-city-lights">
-                {<Icon path={props.icon} size={1}/>}
-                <h5>{props.name}</h5>
-                <p>{props.languages}</p>
+                {!isDesriptionShown ? 
+                <>
+                    <div className="flex flex-row gap-2">
+                    {icons.map((icon, index) => {
+                        return <Icon  key={index} path={icon} size={1}/>
+                    })}
+                    </div>
+                    <h5>{name}</h5>
+                    <p className="text-base">{languages}</p>
+                </> : 
+                <p className="
+                    text-center
+                    text-xl
+                    m-4">{description}</p>
+                }
             </div>
         </a>
     );

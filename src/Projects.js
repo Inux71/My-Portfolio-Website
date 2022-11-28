@@ -1,5 +1,8 @@
 import ProjectContainer from "./ProjectContainer";
-import {mdiGithub} from '@mdi/js'
+import {
+    mdiGithub,
+    mdiAccountGroup
+} from '@mdi/js'
 
 function Projects() {
     return (
@@ -20,14 +23,75 @@ function Projects() {
                 justify-center
                 items-center
                 gap-4">
-                <ProjectContainer url="https://github.com/Inux71/My-Portfolio-Website" icon={mdiGithub} name="My Portfolio Website" languages="React"></ProjectContainer>
-                <ProjectContainer url="https://github.com/Inux71/RPN-Calculator" icon={mdiGithub} name="RPN Calculator" languages="HTML CSS JavaScript"></ProjectContainer>
-                <ProjectContainer url="https://github.com/Inux71/MVVMTotalCommander" icon={mdiGithub} name="MVVM Total Commander" languages="C#"></ProjectContainer>
-                <ProjectContainer url="https://github.com/Inux71/MLSoundsClassification" icon={mdiGithub} name="ML Sound Classification (Co-op)" languages="Python"></ProjectContainer>
-                <ProjectContainer url="https://github.com/TheLukaszNs/AntSim" icon={mdiGithub} name="Ant Simulation (Co-op)" languages="C++"></ProjectContainer>
-                <ProjectContainer url="https://github.com/TheLukaszNs/MVVMShop" icon={mdiGithub} name="MVVM Shop (Co-op)" languages="C#"></ProjectContainer>
-                <ProjectContainer url="https://github.com/TheLukaszNs/WPFQuiz" icon={mdiGithub} name="WPF Quiz (Co-op)" languages="C#"></ProjectContainer>
-                <ProjectContainer url="https://github.com/TheLukaszNs/GDXFractals" icon={mdiGithub} name="GDX Fractals (Co-op)" languages="Java"></ProjectContainer>
+                <ProjectContainer 
+                    url="https://github.com/Inux71/My-Portfolio-Website" 
+                    icons={[mdiGithub]} 
+                    name="My Portfolio Website" 
+                    languages="React"
+                    description="My website's source code."/>
+
+                <ProjectContainer 
+                    url="https://github.com/TheLukaszNs/AntSim" 
+                    icons={[mdiGithub, mdiAccountGroup]} 
+                    name="Ant Simulation" 
+                    languages="C++"
+                    description="Graphical visualisation of ant simulation made for university."/>
+
+                <ProjectContainer 
+                    url="https://github.com/TheLukaszNs/GDXFractals" 
+                    icons={[mdiGithub, mdiAccountGroup]} 
+                    name="GDX Fractals" 
+                    languages="Java"
+                    description="A graphical fractals visualisation made for university."/>
+
+                <ProjectContainer
+                    url="https://github.com/Inux71/RPN-Calculator" 
+                    icons={[mdiGithub]} 
+                    name="RPN Calculator" 
+                    languages="HTML CSS JS"
+                    description="A Reverse-Polish-Notation mobile calculator made for university."/>
+
+                <ProjectContainer 
+                    url="https://github.com/TheLukaszNs/MVVMShop" 
+                    icons={[mdiGithub, mdiAccountGroup]} 
+                    name="MVVM Shop" 
+                    languages="C#"
+                    description="A desktop app simulating online shop made for university."/>
+
+                <ProjectContainer 
+                    url="https://github.com/Inux71/MVVMTotalCommander" 
+                    icons={[mdiGithub]} 
+                    name="MVVM Total Commander" 
+                    languages="C#"
+                    description="A simplified version of Total Commander made for university."/>
+
+                <ProjectContainer 
+                    url="https://github.com/TheLukaszNs/WPFQuiz" 
+                    icons={[mdiGithub, mdiAccountGroup]} 
+                    name="WPF Quiz" 
+                    languages="C#"
+                    description="A desktop app to create and solve quizes made for university."/>
+
+                <ProjectContainer 
+                    url="https://github.com/Inux71/Timer" 
+                    icons={[mdiGithub]} 
+                    name="Timer" 
+                    languages="Kotlin"
+                    description="A countdown timer mobile app made for university."/>
+
+                <ProjectContainer
+                    url="https://github.com/Inux71/Web-Mobile-Editor"
+                    icons={[mdiGithub]}
+                    name="Web Mobile Editor"
+                    languages="HTML CSS JS PHP"
+                    description="A mobile drawing editor made for university."/>
+
+                <ProjectContainer 
+                    url="https://github.com/Inux71/MLSoundsClassification" 
+                    icons={[mdiGithub, mdiAccountGroup]} 
+                    name="ML Sound Classification" 
+                    languages="Python"
+                    description="Sound classificator made for university."/>
             </div>
         </section>
     );
