@@ -7,10 +7,11 @@ import {
     mdiSoccer
 } from "@mdi/js"
 import AboutIconContainer from "./AboutIconContainer";
+import { differenceInYears, parse } from "date-fns"
 
-const dateOfBirth = new Date(2001, 12, 11);
-const currentDate = new Date();
-const years = currentDate.getFullYear() - dateOfBirth.getFullYear();
+const birthDay = parse("11/12/2001", "dd/MM/yyyy", new Date());
+const years = differenceInYears(new Date(), birthDay);
+
 
 function About() {
     return (

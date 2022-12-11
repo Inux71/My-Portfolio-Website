@@ -23,7 +23,6 @@ function Home() {
                 flex-col
                 justify-center
                 items-center">
-                <img src="" alt="It's me" className="rounded"/>
             </div>
         </section>
     );
